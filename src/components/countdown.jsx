@@ -24,7 +24,7 @@ export default function Countdown({ onCountdownEnd }) {
   // ✅ Set target date to TODAY 11:59:59 PM
   const targetDate = (() => {
     const date = new Date()
-    date.setHours(23, 59, 59, 999) // Today at 11:59:59 PM
+    date.setHours(12, 59, 59, 999) // Today at 11:59:59 PM
     return date
   })()
 
